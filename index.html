@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>calculator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <!-- Calculator container -->
+  <div class="calculator">
+    <!-- Calculator header -->
+      <div class="calculator-header">
+          <h2>Calculator</h2>
+      </div>
+    <!-- Display area for calculator -->
+      <div class="calculator-display" id="display">0</div>
+    <!-- Calculator buttons -->
+      <div class="calculator-buttons">
+        <!-- Numeric buttons and operators -->
+        <!-- ... -->
+        <!-- Clear button -->
+          <button class="calculator-button" onclick="appendToDisplay('7')">7</button>
+          <button class="calculator-button" onclick="appendToDisplay('8')">8</button>
+          <button class="calculator-button" onclick="appendToDisplay('9')">9</button>
+          <button class="calculator-button" onclick="appendToDisplay('/')">/</button>
+
+          <button class="calculator-button" onclick="appendToDisplay('4')">4</button>
+          <button class="calculator-button" onclick="appendToDisplay('5')">5</button>
+          <button class="calculator-button" onclick="appendToDisplay('6')">6</button>
+          <button class="calculator-button" onclick="appendToDisplay('*')">*</button>
+
+          <button class="calculator-button" onclick="appendToDisplay('1')">1</button>
+          <button class="calculator-button" onclick="appendToDisplay('2')">2</button>
+          <button class="calculator-button" onclick="appendToDisplay('3')">3</button>
+          <button class="calculator-button" onclick="appendToDisplay('-')">-</button>
+
+          <button class="calculator-button" onclick="appendToDisplay('0')">0</button>
+          <button class="calculator-button" onclick="appendToDisplay('.')">.</button>
+          <button class="calculator-button" onclick="calculate()">=</button>
+          <button class="calculator-button" onclick="appendToDisplay('+')">+</button>
+
+          <button class="calculator-button" onclick="clearDisplay()">C</button>
+      </div>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
